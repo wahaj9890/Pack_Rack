@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>Login And Registration Form</title>
+        <link rel="stylesheet" href="loginStyles.css">
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+    </head>
+    <body>
+        <div class="log">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="togle-btn" onclick="login()">Log In</button>
+                <button type="button" class="togle-btn" onclick="register()">Register</button>
+            </div>
+            <form id="login" class="input-form">
+                <input type="text" class="ip-field" placeholder="User Id" required>             
+               <input  type="password" class="ip-field" placeholder="Password" required>
+               <input  type="checkbox" class="chk-box"><span>Remember Password</span>
+               <button type="submit" class="sbmt-btn" onclick="">Log In</button>
+            </form>
+
+             <form id="register" class="input-form">
+                <input type="text" class="ip-field" placeholder="User Id" required>             
+               <input type="email" class="ip-field" placeholder="Email Id" required>
+               <input type="email" class="ip-field" placeholder="Enter Password" required>
+               <input type="checkbox" class="chk-box"><span>I agree to terms & condition</span>
+               <button type="submit" class="sbmt-btn">Register</button>
+            </form> 
+            
+        </div>
+        </div>
+        <script>
+            var loginForm = document.getElementById("login");
+            var rgsForm = document.getElementById("register");
+            var btnForm = document.getElementById("btn");
+
+            function register(){
+                loginForm.style.left="-400px";
+                rgsForm.style.left="50px";
+                btnForm.style.left="110px";
+            }
+            function login(){
+                loginForm.style.left="50px";
+                rgsForm.style.left="450px";
+                btnForm.style.left="0px";
+            }
+        </script>
+    </body>
+</html>

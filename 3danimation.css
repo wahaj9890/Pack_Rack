@@ -1,0 +1,96 @@
+body {
+  background-color: #ddd;
+}
+.happer {
+  position: absolute;
+  top: 50%;
+  /* left: 50%; */
+  right: 360px;
+  perspective: 1500px;
+}
+
+.box-area {
+  position: relative;
+  transform-style: preserve-3d;
+  animation: rotate 30s linear infinite;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate3d(0, 0, 0, 0);
+  }
+  100% {
+    transform: rotate3d(0, 1, 0, 360deg);
+  }
+}
+.box {
+  position: absolute;
+  width: 380px;
+  height: 380px;
+  border: 2px solid #262626;
+  opacity: 0.75;
+  /* box-shadow: inset 0px 0px 100px #3c0220; */
+  outline: 1px solid #02203c;
+}
+.box-area:hover {
+  animation-play-state: paused;
+  animation-play-state: ;
+}
+.box-front {
+  transform: translateX(-200px) translateY(-200px) translateZ(200px);
+  background: white;
+}
+.box-back {
+  transform: translateX(-200px) translateY(-200px) translateZ(-200px);
+  background: white;
+}
+.box-right {
+  transform: translateY(-200px) rotateY(90deg);
+  background-color: transparent;
+  filter: drop-shadow(2px 4px 6px black);
+}
+.box-left {
+  transform: translateY(-200px) translateX(-400px) rotateY(90deg);
+  background: rgba(216, 255, 0, 0.5);
+}
+/* .box-top{
+      transform: translateX(-200px) translateY(-400px) rotateX(90deg);
+      background:rgba(0, 6, 246, 0.5);
+  } */
+.box-area {
+  transform: rotateX(90deg) rotateY(90deg);
+}
+.aboutus {
+  color: WHITE;
+  font-variant: petite-caps;
+}
+.aboutus span {
+  color: #fdfefe;
+}
+.aboutus h1,
+h2,
+p {
+  text-align: center;
+  margin-top: 15px;
+}
+.aboutus p {
+  font-size: 20px;
+}
+.contactus {
+  text-align: left;
+  margin-top: 35px;
+}
+.contactus span {
+  font-size: 20px;
+  margin-left: 10px;
+  color: #fefef4;
+}
+.fa-whatsapp {
+  margin-left: 15px;
+  color: #2eb872;
+}
+.gmailLogo {
+  width: 33px;
+  height: 30px;
+  margin-left: 15px;
+  opacity: 0.75;
+}

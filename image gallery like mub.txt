@@ -1,0 +1,112 @@
+<div class="container-fluid ">            
+        <div class="row" style="margin-top:5%;">
+            <div class="col-sm-1" style="border: 2px solid red;"></div>
+            <div class="col-sm-3">
+                <div class="card">
+                    
+                    <img src="./flipkartbox.jpg" alt="Avatar" style="width:100%; height:250px" class="mar" />
+                    <div class="category-container">
+                        <b>Flipkart Box</b>
+                        <input type="button" title="View"  value="View" class="btn-view" onclick="location.href= './categoryPages/electronics.html';" />
+                      </div>
+    
+                    </div>
+            </div>
+            <div class="col-sm-3">
+                    <div class="card">
+                        <img src="./PaperBox.jpeg" alt="Avatar" style="width:100%; height:250px" />
+                        <div class="category-container">
+                            <b>Paper Box</b>
+                            <input type="button" title="View"  value="View" class="btn-view" onclick="location.href= './categoryPages/electronics.html';" />
+                          </div>
+        
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card">
+                            <img src="./Corrugated sheet roll.jpg" alt="Avatar" style="width:100%; height:250px" />
+                            <div class="category-container">
+                                <b>Corrugated Sheet Roll</b>
+                                <input type="button" title="View"  value="View" class="btn-view" onclick="location.href= './categoryPages/electronics.html';" />
+                              </div>
+            
+                            </div>
+            </div>
+            <div class="col-sm-2" style="border: 2px solid red;"></div>
+    </div>
+
+    <div class="row" style="margin-top:5%;">
+        <div class="col-sm-1" style="border: 2px solid red;"></div>
+        <div class="col-sm-3">
+            <div class="card">
+                <img src="./offsetPrintingBox.jpg" alt="Avatar" style="width:100%; height:250px" />
+                <div class="category-container">
+                    <b>Off Set Printing Box</b>
+                    <input type="button" title="View"  value="View" class="btn-view" onclick="location.href= './categoryPages/electronics.html';" />
+                  </div>
+
+                </div>
+        </div>
+        <div class="col-sm-3">
+                <div class="card">
+                    <img src="./TeaPackingPaperBox.jpg" alt="Avatar" style="width:100%; height:250px" />
+                    <div class="category-container">
+                        <b>Tea Packing Paper Box</b>
+                        <input type="button" title="View"  value="View" class="btn-view" onclick="location.href= './categoryPages/electronics.html';" />
+                      </div>
+    
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <img src="./ShoePacking.jpg" alt="Avatar" style="width:100%; height:250px" />
+                        <div class="category-container">
+                            <b>Show Packing</b>
+                            <input type="button" title="View"  value="View" class="btn-view" onclick="location.href= './categoryPages/electronics.html';" />
+                          </div>
+        
+                        </div>
+        </div>
+        <div class="col-sm-2" style="border: 2px solid red;"></div>
+</div>
+
+<div class="row" style="margin-top:5%;">
+    <div class="col-sm-1" style="border: 2px solid red;"></div>
+    <div class="col-sm-3">
+        <div class="card">
+            <img src="./5plyCorrugaedPackingBox.jpg" alt="Avatar" style="width:100%; height:250px"  />
+            <marquee direction="up"></marquee>
+            <div class="category-container">
+                <b>5Ply Corrugraed Packing Box</b>
+                <input type="button" title="View"  value="View" class="btn-view" onclick="location.href= './categoryPages/electronics.html';" />
+              </div>
+
+            </div>
+    </div>
+    <div class="col-sm-3">
+            <div class="card">
+                <img src="./cakePaperBox.jpg" alt="Avatar" style="width:100%; height:250px" />
+                <div class="category-container">
+                    <b>Cake Paper Box</b>
+                    <input type="button" title="View"  value="View" class="btn-view" onclick="location.href= './categoryPages/electronics.html';" />
+                  </div>
+
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card">
+                    <img src="./flipkartbox.jpg" alt="Avatar" style="width:100%; height:250px" />
+                    <div class="category-container">
+                        <b>Flipkart Box</b>
+                        <input type="button" title="View"  value="View" class="btn-view" onclick="location.href= './categoryPages/electronics.html';" />
+                      </div>
+    
+                    </div>
+    </div>
+    <div class="col-sm-2" style="border: 2px solid red;"></div>
+</div>
+
+   
+
+
+  </div> 
